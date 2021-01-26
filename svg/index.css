@@ -1,0 +1,43 @@
+.container{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.rectangle{
+    width: 100px;
+    height: 75px;
+    background-color: lightblue;
+    animation: example 4s 2;
+    position: relative;
+}
+
+@keyframes example{
+    0%{
+        background-color: red; 
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background: black;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: blue;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+
+}
