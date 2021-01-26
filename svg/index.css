@@ -8,18 +8,26 @@
 .rectangle{
     width: 100px;
     height: 100px;
-    background-color: lightblue;
-    animation: example 4s 1 alternate cubic-bezier(0.55, 0.055, 0.675, 0.19);
     position: relative;
+    background-color: lightblue;
+    animation: example 3s 2 alternate ease-in-out;
+    
 }
 
 @keyframes example{
     0%{
-        background-color: red; 
-        left: 0px;
         top: 0px;
+        left: 0px;
     }
-    25%{
+    100%{
+        top: 0px;
+        left: calc(300px - 100px);
+    }
+}
+
+
+
+ /* 25%{
         background: black;
         left: calc(300px - 100px);
         top: 0px;
@@ -33,11 +41,4 @@
         background-color: blue;
         left: 0px;
         top: calc(300px - 100px);
-    }
-    100%{
-        background-color: yellow;
-        left: 0px;
-        top: 0px;
-    }
-
-}
+    } */
