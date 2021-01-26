@@ -21,18 +21,18 @@
     }
     25%{
         background: black;
-        left: 200px;
+        left: calc(300px - 100px);
         top: 0px;
     }
     50%{
         background-color: green;
-        left: 200px;
-        top: 200px;
+        left: calc(300px - 100px);
+        top:calc(300px - 100px);
     }
     75%{
         background-color: blue;
         left: 0px;
-        top: 200px;
+        top: calc(300px - 100px);
     }
     100%{
         background-color: yellow;
