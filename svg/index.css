@@ -7,9 +7,9 @@
 
 .rectangle{
     width: 100px;
-    height: 75px;
+    height: 100px;
     background-color: lightblue;
-    animation: example 4s 2;
+    animation: example 4s 1 alternate cubic-bezier(0.55, 0.055, 0.675, 0.19);
     position: relative;
 }
 
